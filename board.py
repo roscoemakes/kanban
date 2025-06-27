@@ -21,7 +21,7 @@ initial_data = {
 class KanbanBoard(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Joule™ Kanban")
+        self.setWindowTitle("Kanban")
         self.resize(1600, 800)
         self.theme = 'dark'
         self.data = copy.deepcopy(initial_data)
